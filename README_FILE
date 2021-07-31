@@ -1,0 +1,7 @@
+After cloning the repo change the sdk value inside android/local.properties file 
+run command "npm install" 
+Then run the command "react-native run-android" 
+Issues during development The problem I faced was in using the local link for pdf to download. 
+I was able to download any pdf with http link but not from the local file. 
+So I tried many libraries like react-native-pdf, react-native-image-viwer, etc. 
+After debugging and using different libraries, Then I found the library rn-fetch-blob which helped me to solve the issue.
